@@ -2,3 +2,6 @@
     -fx-background-image: linear-gradient(40deg,rgb(0,0,0),white);
 }
 
+*{
+    -fx-opacity: 0;
+}

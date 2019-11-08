@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="950.0" stylesheets="@css/Primary.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
    <children>
-      <VBox alignment="CENTER" spacing="20.0">
+      <VBox alignment="CENTER" spacing="20.0" stylesheets="@css/Primary.css">
          <children>
-            <Label text="Bem-Vindo a Mordidinha Doce">
+            <Label stylesheets="@css/Primary.css" text="Bem-Vindo a Mordidinha Doce">
                <font>
                   <Font name="Candara Light Italic" size="45.0" />
                </font></Label>
-            <Label text="Self-service" />
-            <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Começar" />
+            <Label stylesheets="@css/Primary.css" text="Self-service" />
+            <Button fx:id="primaryButton" onAction="#switchToSecondary" stylesheets="@css/Primary.css" text="Começar" />
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
