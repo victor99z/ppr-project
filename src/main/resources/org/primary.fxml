@@ -5,13 +5,16 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-
-<StackPane fx:controller="org.PrimaryController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
    <children>
       <VBox alignment="CENTER" spacing="20.0">
          <children>
-            <Label text="Bem-Vindo a Mordidinha Doce" />
+            <Label text="Bem-Vindo a Mordidinha Doce">
+               <font>
+                  <Font name="Candara Light Italic" size="45.0" />
+               </font></Label>
             <Label text="Self-service" />
             <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Começar" />
          </children>
