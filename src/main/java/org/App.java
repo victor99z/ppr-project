@@ -1,4 +1,4 @@
-package org.view;
+package org;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +18,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"));
+        scene.getStylesheets().add("../../main/resources/org/css/Primary.css");
         stage.setScene(scene);
         stage.show();
     }

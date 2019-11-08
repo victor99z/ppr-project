@@ -1,6 +1,11 @@
 # ignorar .idea
 
 .idea
+.idea/*
+
+target
+ppr-project.iml
+pom.xml
 
 # Compiled class file
 *.class
