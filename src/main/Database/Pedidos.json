@@ -1,0 +1,38 @@
+{
+  "Pedidos": [
+    {
+      "cpf": "11410506924",
+      "valorTotal": 150,
+      "itens": [
+        {
+          "produto": "bolo cenoura",
+          "qtd": 2
+        },
+        {
+          "produto": "torta de maça",
+          "qtd": 1
+        }
+      ],
+      "data": "09/11/2019",
+      "metodoPag": "dinheiro",
+      "statusPagamento": true
+    },
+    {
+      "cpf": "98898587458",
+      "valorTotal": 211.6,
+      "itens": [
+        {
+          "produto": "torta holandesa",
+          "qtd": 3
+        },
+        {
+          "produto": "torta de maça",
+          "qtd": 1
+        }
+      ],
+      "data": "07/11/2019",
+      "metodoPag": "debito",
+      "statusPagamento": true
+    }
+  ]
+}
