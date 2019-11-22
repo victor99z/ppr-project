@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
+<VBox alignment="CENTER" prefHeight="154.0" prefWidth="335.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
    <children>
-      <Label text="Primary View" />
-      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="139.0" text="Eh isso ai" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="24.0" />
+         </font></Label>
+      <JFXButton fx:id="primaryButton" buttonType="RAISED" onAction="#switchToSecondary" prefHeight="34.0" prefWidth="77.0" style="-fx-background-color: #667db6;" text="Botao" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="14.0" />
+         </font>
+      </JFXButton>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

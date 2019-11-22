@@ -1,6 +1,6 @@
 package org.model.usuario;
 
-public enum Usuarios {
+public enum ListaUsuarios {
     CLIENTE,
     FUNCIONARIO,
     GESTOR

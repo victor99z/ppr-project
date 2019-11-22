@@ -1,4 +1,4 @@
-package org.model;
+package org.model.pedido;
 
 public enum Pagamento {
     DINHEIRO,

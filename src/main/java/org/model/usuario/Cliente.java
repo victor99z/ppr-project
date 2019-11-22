@@ -1,6 +1,6 @@
-package org.model;
+package org.model.usuario;
 
-public class Cliente {
+public class Cliente implements Usuario{
 
     private String cpf;
     private String nome;

@@ -1,6 +1,7 @@
-package org.model;
+package org.model.usuario;
 
-import java.util.ArrayList;
+import org.model.produto.Ingrediente;
+import org.model.produto.Produto;
 
 public class Gestor extends Funcionario{
 
@@ -14,11 +15,9 @@ public class Gestor extends Funcionario{
         return 10; // implementar depois
     }
     public Integer consultaPedidosPagosMes(){
-        // TODO: 08/11/2019
         return 1000;
     }
     public Integer consultaPedidosCanceladosHoje(){
-        // TODO: 08/11/2019
         return 5;
     }
     public Integer consultaPedidosCanceladosMes(){
