@@ -1,0 +1,18 @@
+{
+  "Usuarios": [
+    {
+      "cpf": "11510609835",
+      "nome": "Jose",
+      "tipo": "CLIENTE"
+    },
+    {
+      "cpf": "16895845811",
+      "nome": "Maria",
+      "tipo": "FUNCIONARIO"
+    },{
+      "cpf": "16895841121",
+      "nome": "Jooj",
+      "tipo": "GESTOR"
+    }
+  ]
+}

@@ -1,38 +1,28 @@
 {
-  "Pedidos": [
+  "ListaPedidos": [
     {
-      "cpf": "11410506924",
-      "valorTotal": 150,
-      "itens": [
-        {
-          "produto": "bolo cenoura",
-          "qtd": 2
-        },
-        {
-          "produto": "torta de maça",
-          "qtd": 1
-        }
-      ],
-      "data": "09/11/2019",
-      "metodoPag": "dinheiro",
-      "statusPagamento": true
+      "clienteCpf": "11410506924",
+      "itens":
+      {
+        "bolo de cenoura": 1,
+        "bolo de chocolate": 3
+      },
+      "valorTotal": 210.89,
+      "data": "19/20/2019",
+      "metodoPag": "CREDITO",
+      "statusPag": true
     },
     {
-      "cpf": "98898587458",
-      "valorTotal": 211.6,
-      "itens": [
-        {
-          "produto": "torta holandesa",
-          "qtd": 3
-        },
-        {
-          "produto": "torta de maça",
-          "qtd": 1
-        }
-      ],
-      "data": "07/11/2019",
-      "metodoPag": "debito",
-      "statusPagamento": true
+      "clienteCpf": "11410506924",
+      "itens":
+      {
+        "bolo de cenoura": 1,
+        "bolo de chocolate": 3
+      },
+      "valorTotal": 210.89,
+      "data": "19/20/2019",
+      "metodoPag": "CREDITO",
+      "statusPag": true
     }
   ]
 }

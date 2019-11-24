@@ -6,13 +6,10 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="154.0" prefWidth="335.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
+<VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" spacing="20.0" styleClass="container" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.PrimaryController">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="139.0" text="Eh isso ai" textAlignment="CENTER">
-         <font>
-            <Font name="Consolas Bold" size="24.0" />
-         </font></Label>
-      <JFXButton fx:id="primaryButton" buttonType="RAISED" onAction="#switchToSecondary" prefHeight="34.0" prefWidth="77.0" style="-fx-background-color: #667db6;" text="Botao" textFill="WHITE">
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="175.0" prefWidth="708.0" styleClass="title" text="Bem vindo ao mordidinha doce self service" textAlignment="CENTER" />
+      <JFXButton fx:id="primaryButton" buttonType="RAISED" onAction="#switchToSecondary" prefHeight="54.0" prefWidth="252.0" styleClass="btn-continuar" text="Continuar" textFill="WHITE">
          <font>
             <Font name="Consolas Bold" size="14.0" />
          </font>

@@ -1,7 +1,10 @@
 package org;
 
-import org.model.produto.*;
+import com.google.gson.*;
+import org.model.pedido.ListaPedidos;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 
 public class MainDemo {
     public static void main(String[] args) {
@@ -30,7 +33,7 @@ public class MainDemo {
         System.out.println(f1.getNome());
         System.out.println(g1.getNome());
 
-        */
+
 
 
         Produto p1 = new Produto();
@@ -40,7 +43,25 @@ public class MainDemo {
         System.out.println(p1.getIngredientes().toString());
 
 
+        Gson gson = new Gson();
 
+        try {
+            ListaPedidos p1 = gson.fromJson(new FileReader("src/main/Database/Pedidos.json"), ListaPedidos.class);
+            System.out.println(p1.totalPedidos());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+         */
+
+        Gson gson = new Gson();
+
+        try {
+            Object user = gson.fromJson(new FileReader("src/main/Database/Usuarios.json"), Object.class);
+            System.out.println(user);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
 
     }

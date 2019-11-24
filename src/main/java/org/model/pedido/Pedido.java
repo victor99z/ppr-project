@@ -1,20 +1,28 @@
 package org.model.pedido;
 
+import org.model.pedido.Pagamento;
 import org.model.produto.Produto;
-import org.model.usuario.Cliente;
-
-import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Pedido {
-    private Cliente cliente;
-    private HashMap<Produto, Integer> itens;
-    private Pagamento pag;
-    private Calendar dt;
-    private Boolean status;
+    private String clienteCpf;
+    private Map<String,Integer> itens;
+    private Double valorTotal;
+    private String data;
+    private Pagamento metodoPag;
+    private Boolean statusPag;
 
-    public void gerarCupom(){
-
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "clienteCpf='" + clienteCpf + '\'' +
+                ", itens=" + itens +
+                ", valorTotal=" + valorTotal +
+                ", data='" + data + '\'' +
+                ", metodoPag=" + metodoPag +
+                ", statusPag=" + statusPag +
+                "}";
     }
-
 }
