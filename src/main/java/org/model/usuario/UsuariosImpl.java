@@ -1,4 +1,4 @@
 package org.model.usuario;
 
-public class ListaUsuarios {
+public class UsuariosImpl {
 }
