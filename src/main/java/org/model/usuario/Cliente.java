@@ -4,6 +4,7 @@ public class Cliente implements Usuario{
 
     private String cpf;
     private String nome;
+    private String tipo;
 
     public String getCpf() {
         return cpf;

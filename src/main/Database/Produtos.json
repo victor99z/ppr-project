@@ -1,0 +1,21 @@
+{
+  "produtos": [
+    {
+      "nome": "Bolo de cenoura",
+      "ingredientes": [
+        {
+          "nome": "Farinha de trigo"
+        },
+        {
+          "nome": "Calda de chocolate"
+        },
+        {
+          "nome": "ovo"
+        },
+        {
+          "nome": "fermento"
+        }
+      ]
+    }
+  ]
+}

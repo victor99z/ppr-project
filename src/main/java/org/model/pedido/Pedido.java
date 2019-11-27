@@ -1,9 +1,5 @@
 package org.model.pedido;
 
-import org.model.pedido.Pagamento;
-import org.model.produto.Produto;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Pedido {
@@ -11,7 +7,7 @@ public class Pedido {
     private Map<String,Integer> itens;
     private Double valorTotal;
     private String data;
-    private Pagamento metodoPag;
+    private EnumPagamento metodoPag;
     private Boolean statusPag;
 
     @Override

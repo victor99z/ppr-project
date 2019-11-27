@@ -3,6 +3,7 @@
 }
 
 .title{
+    -fx-font-weight: bold;
     -fx-font-family: Roboto;
     -fx-font-size: 28px;
     -fx-text-fill: white;

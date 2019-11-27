@@ -1,8 +1,6 @@
 package org;
 
 import com.google.gson.*;
-import org.model.pedido.ListaPedidos;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 

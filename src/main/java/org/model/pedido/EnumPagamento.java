@@ -1,6 +1,6 @@
 package org.model.pedido;
 
-public enum Pagamento {
+public enum EnumPagamento {
     DINHEIRO,
     DEBITO,
     CREDITO
