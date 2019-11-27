@@ -16,6 +16,26 @@
           "nome": "fermento"
         }
       ]
+    },
+    {
+      "nome": "Bolo de amendoas",
+      "ingredientes":[
+        {
+          "nome": "Farinha de trigo"
+        },
+        {
+          "nome": "Calda de chocolate"
+        },
+        {
+          "nome": "ovo"
+        },
+        {
+          "nome": "fermento"
+        },
+        {
+          "nome": "amendoas"
+        }
+      ]
     }
   ]
 }
