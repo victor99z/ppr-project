@@ -5,10 +5,11 @@
 ### Requisitos para executar o programa
 * Maven
 * OpenJdk 11
-* Intellij
 
 ### Opcionais
+* Intellij
 * Scene Builder
+
 
 ### Executando o projeto
 
