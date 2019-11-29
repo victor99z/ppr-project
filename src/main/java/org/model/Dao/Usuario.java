@@ -1,4 +1,4 @@
-package org.model.usuario;
+package org.model.Dao;
 
 public interface Usuario {
     public void setCpf(String cpf);

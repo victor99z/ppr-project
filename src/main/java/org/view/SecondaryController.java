@@ -7,7 +7,7 @@ import org.App;
 public class SecondaryController {
 
     @FXML
-    private void switchToPrimary() throws IOException {
-        App.setRoot("primary");
+    private void switchToMenu() throws IOException {
+        App.setRoot("menu");
     }
 }

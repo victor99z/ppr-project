@@ -1,7 +1,5 @@
 package org.model.usuario;
 
-import org.model.Dao.UserDaoImpl;
-
 import java.util.ArrayList;
 
 public class ListaUsuarios {

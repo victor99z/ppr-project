@@ -1,5 +1,7 @@
 package org.model.usuario;
 
+import org.model.Dao.Usuario;
+
 public class UserFactory {
     public Usuario createUser(EnumUsuarios user){
         switch (user){

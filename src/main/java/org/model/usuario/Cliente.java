@@ -1,6 +1,8 @@
 package org.model.usuario;
 
-public class Cliente implements Usuario{
+import org.model.Dao.Usuario;
+
+public class Cliente implements Usuario {
 
     private String cpf;
     private String nome;

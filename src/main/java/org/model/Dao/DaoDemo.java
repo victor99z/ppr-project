@@ -2,11 +2,8 @@ package org.model.Dao;
 
 
 import org.model.usuario.EnumUsuarios;
-import org.model.usuario.ListaUsuarios;
-import org.model.usuario.Usuario;
+import org.model.usuario.UserDaoImpl;
 import org.model.usuario.UsuariosImpl;
-
-import java.util.List;
 
 public class DaoDemo {
     public static void main(String[] args) {

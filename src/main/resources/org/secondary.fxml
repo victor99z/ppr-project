@@ -29,7 +29,7 @@
             </JFXTextField>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <JFXButton fx:id="secondaryButton" buttonType="RAISED" onAction="#switchToPrimary" prefHeight="52.0" prefWidth="223.0" styleClass="btn-continuar" text="Continuar" />
+                  <JFXButton fx:id="secondaryButton" buttonType="RAISED" onAction="#switchToMenu" prefHeight="52.0" prefWidth="223.0" styleClass="btn-continuar" text="Continuar" />
                </children>
             </VBox>
          </children>
