@@ -3,10 +3,12 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" spacing="20.0" styleClass="container" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.view.SecondaryController">
     <children>
@@ -29,9 +31,14 @@
             </JFXTextField>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <JFXButton fx:id="secondaryButton" buttonType="RAISED" onAction="#switchToMenu" prefHeight="52.0" prefWidth="223.0" styleClass="btn-continuar" text="Continuar" />
+                  <JFXButton fx:id="secondaryButton" buttonType="RAISED" onAction="#verificaCpf" prefHeight="52.0" prefWidth="223.0" styleClass="btn-continuar" text="Continuar" />
                </children>
             </VBox>
+            <Label fx:id="labelErro" alignment="CENTER" contentDisplay="CENTER" prefHeight="122.0" prefWidth="364.0" style="-fx-opacity: 0;" text="CPF INVÁLIDO" textFill="#f5f4f4" GridPane.columnIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
          </children>
       </GridPane>
     </children>
